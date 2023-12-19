@@ -1,0 +1,81 @@
+.counter-con {
+  max-width: 400px;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+
+}
+.counter {
+  background-color: blueviolet;
+  margin-top: 5rem;
+  padding: 1rem;
+  border-radius: 5px;
+  color: white;
+}
+.counter > p {
+  font-size: 1.4rem;
+}
+.btn-con > button {
+  border: none;
+  cursor: pointer;
+  color : orange;
+  border: 2px solid orange;
+  padding: 7px 1rem;
+  border-radius: 5px;
+  background: none;
+  margin: .7rem;
+}
+.nav-con {
+  background-color: cornflowerblue;
+  color : white;
+  border: none;
+  padding: 7px 1rem;
+  border-radius: 5px;
+  margin: .7rem;
+  cursor: pointer;
+  
+}
+.nav-bar-con {
+  max-width: 700px;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+.nav-bar-con > h2 {
+  margin: 0;
+  cursor: pointer;
+}
+.nav-bar-con > ul {
+  display: flex;
+  list-style: none;
+  gap: .5rem;
+}
+.nav-bar-con > ul > li {
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.logout {
+  border: 2px solid orange;
+  padding: 6px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: none;
+  color: orange;
+  font-size: 1.1rem;
+}
+.login {
+  background-color: cornflowerblue;
+  color : white;
+  font-size: 1.4rem;
+  border: none;
+  cursor: pointer;
+  padding: 7px 1rem;
+  border-radius: 5px;
+  margin: 2rem;
+}
+.login-con {
+  text-align: center;
+}
